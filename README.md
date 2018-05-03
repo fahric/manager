@@ -7,6 +7,18 @@ React Native App. Display list of employees.
 
 2 - This app requires Firebase. Register to Firebase and get your config.Add your config into `src\Config.js`
 
+example config:
+```
+{
+    apiKey: '*****',
+    authDomain: '****',
+    databaseURL: 'https://****',
+    projectId: '***',
+    storageBucket: '****',
+    messagingSenderId: '****'
+}
+```
+
 3 - Make sure Xcode latest updates are installed and  runs OK on your mac
 
 4 - run `react-native run-ios` in the project.
